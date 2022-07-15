@@ -1,0 +1,8 @@
+create table sell(
+billno varchar(5) not null,
+brand varchar(30) not null,
+modelno varchar(5) not null,
+date varchar(15) not null,
+name varchar(30) not null,
+qty varchar(5) not null,
+uprice varchar(15) not null);

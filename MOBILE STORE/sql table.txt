@@ -1,0 +1,10 @@
+create database mobilestore;
+use mobilestore;
+create table mobile(brand varchar(50),modelno varchar(50),mobiletype varchar(70), 
+type varchar(30),networktyp varchar(15),image longblob,acc varchar(150),ospec varchar(150),
+bt varchar(10),gprs varchar(10),camera varchar(10),gps varchar(10),
+snet varchar(10),cblk varchar(10),cwht varchar(10),cred varchar(10),cothr varchar(10),
+qty int,u_price int);
+
+create table sell(billno int primary key not null,brand varchar(50),modelno varchar(50),
+cdate varchar(50),custname varchar(50),qty int);
